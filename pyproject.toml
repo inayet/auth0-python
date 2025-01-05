@@ -29,7 +29,7 @@ folders = [{ path = "auth0" }]
 python = ">=3.7"
 aiohttp = "^3.8.5"
 pyjwt = "^2.8.0"
-cryptography = "^41.0.3" # pyjwt has a weak dependency on cryptography
+cryptography = "^41.0.7" # pyjwt has a weak dependency on cryptography
 pyopenssl = "^23.2.0"    # pyopenssl is required to work with cryptography 41+
 requests = "^2.31.0"
 
